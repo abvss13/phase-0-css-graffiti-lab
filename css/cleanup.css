@@ -1,1 +1,37 @@
-/* write your override styles here */
+/* cleanup.css */
+
+/* Override styles for tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Override styles for tag-2 */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Override styles for tag-3 */
+  #wall .slick.wicked {
+    display: none;
+  }
+  
+  /* Override styles for tag-4 */
+  #wall .parent #tag-4 {
+    display: none;
+  }
+  
+  /* Override styles for tag-5 */
+  #wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* Override styles for tag-6 */
+  #wall .parent div > div #tag-6 {
+    display: none;
+  }
+  
+  /* Override styles for tag-7 */
+  #wall .parent div > div #tag-7.slick {
+    display: none;
+  }
+  
